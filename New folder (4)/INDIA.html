@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Destinations in India - Image Map</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <!-- Main heading -->
+    <h1>Famous Tourist Destinations in India</h1>
+    
+    <!-- Short descriptive paragraph -->
+    <p>
+        India is a land of diverse culture, history, and natural beauty. 
+        From the snow-capped Himalayas in the north to the tropical beaches in the south, 
+        the country offers many wonderful places for tourists. 
+        Click on different regions of the image below to learn more about some popular destinations.
+    </p>
+    
+    <!-- Image with image map -->
+    <img src="INDIAMAP.jpeg" 
+         alt="Map of India showing tourist regions" 
+         usemap="#indiamap" 
+         width="600" 
+         height="700">
+    
+    <!-- Image Map Definition -->
+    <map name="indiamap">
+        <!-- Rectangular area for Northern region (approx for Delhi/North) -->
+        <area shape="rect" 
+              coords="250,80,400,220" 
+              href="https://en.wikipedia.org/wiki/New_Delhi" 
+              alt="New Delhi - Capital of India" 
+              title="Click to visit New Delhi page">
+        
+        <!-- Rectangular area for Western region (approx for Mumbai/Maharashtra) -->
+        <area shape="rect" 
+              coords="100,350,280,480" 
+              href="https://en.wikipedia.org/wiki/Mumbai" 
+              alt="Mumbai - Financial Capital" 
+              title="Click to visit Mumbai page">
+        
+        <!-- Rectangular area for Southern region (approx for Chennai/South) -->
+        <area shape="rect" 
+              coords="250,520,400,650" 
+              href="https://en.wikipedia.org/wiki/Chennai" 
+              alt="Chennai - Cultural Hub of South" 
+              title="Click to visit Chennai page">
+        
+        <!-- Circular area for Eastern region (approx for Kolkata) -->
+        <area shape="circle" 
+              coords="480,350,60" 
+              href="https://en.wikipedia.org/wiki/Kolkata" 
+              alt="Kolkata - City of Joy" 
+              title="Click to visit Kolkata page">
+    </map>
+    
+    <!-- Instructions for user -->
+    <p class="note">
+        <strong>How to use:</strong> Move your mouse over the image. 
+        Different parts of the map are clickable and will take you to information about that city.
+    </p>
+    
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+ body
+     {
+      background-color: skyblue;
+     }
+ 
+ ol
+    {
+      font-size: 2.2rem; 
+    }
+
+ h1
+   {
+     text-align: center;
+     font-size: 4rem;
+   }
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.list {
+    flex: 1;
+}
+
+.images {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}

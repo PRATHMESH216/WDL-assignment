@@ -1,0 +1,22 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f8ed;
+color: #263b2b;
+margin: 30px;
+}
+h1 {
+text-align: center;
+color: darkgreen;
+}
+h2 {
+color: #356b3c;
+}
+img {
+border: 3px solid darkgreen;
+}
+.center {
+text-align: center;
+}
+p {
+font-size: 16px;
+line-height: 1.5;
